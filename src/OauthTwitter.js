@@ -1,7 +1,7 @@
 'use strict';
 
 import assert from 'assert';
-import { BrowserWindow } from 'electron';
+const { BrowserWindow } = require('electron').remote;
 import { OAuth } from 'oauth';
 
 export default class AuthWindow {
